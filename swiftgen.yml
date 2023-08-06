@@ -1,0 +1,16 @@
+input_dir: ComboPetProject/Resources/
+output_dir: ComboPetProject/Resources/Generated/
+
+xcassets:
+  inputs:
+    - Assets.xcassets
+  outputs:
+    - templatePath: ComboPetProject/Resources/SwiftGenTemplates/ImageAssets.stencil
+      output: Images.swift
+
+fonts:
+  inputs:
+    - Fonts
+  outputs:
+    - templateName: swift5
+      output: Fonts.swift
